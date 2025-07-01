@@ -1,5 +1,42 @@
-# Vue 3 + Vite
+# Aplikasi Manajemen Cafe
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplikasi ini merupakan sistem manajemen yang dirancang untuk membantu pengelolaan data pada sebuah cafe secara efisien dan terstruktur. Dengan antarmuka yang sederhana dan mudah digunakan, aplikasi ini memudahkan pemilik atau pengelola cafe dalam mengatur menu, transaksi, dan laporan keuangan.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## ✨ Fitur Utama
+
+Berikut adalah fitur-fitur yang tersedia dalam aplikasi:
+
+### 📊 Dashboard
+- Menampilkan ringkasan informasi penting seperti total transaksi, jumlah menu, pendapatan, dan statistik lainnya secara real-time.
+
+### 🍽️ Manajemen Menu
+- **Tambah Menu**: Menambahkan item menu baru lengkap dengan nama, harga, dan kategori.
+- **Edit Menu**: Mengubah data menu yang sudah ada.
+- **Hapus Menu**: Menghapus menu yang tidak digunakan lagi.
+- **Daftar Menu**: Melihat semua menu yang tersedia dalam bentuk daftar atau tabel.
+
+### 💰 Manajemen Transaksi
+- **Tambah Transaksi**: Mencatat transaksi pembelian yang terjadi.
+- **Edit Transaksi**: Mengubah data transaksi yang sudah tercatat.
+- **Hapus Transaksi**: Menghapus data transaksi tertentu.
+- **Daftar Transaksi**: Menampilkan riwayat transaksi dalam bentuk tabel.
+
+### 📑 Laporan
+- Menyediakan laporan keuangan atau laporan transaksi harian, mingguan, atau bulanan yang dapat dicetak atau diekspor.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+- Json-Server (Back-end)
+- Vue (Front-end)
+- Tailwindcss (untuk tampilan antarmuka)
+
+---
+
+## 📷 Tampilan Aplikasi
+
+Berikut contoh tampilan antarmuka aplikasi:
+
+---
