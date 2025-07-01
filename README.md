@@ -37,6 +37,18 @@ Berikut adalah fitur-fitur yang tersedia dalam aplikasi:
 
 ## 📷 Tampilan Aplikasi
 
-Berikut contoh tampilan antarmuka aplikasi:
+[lihat website caffe](https://vio-uas-pbk.vercel.app/)
+
+---
+
+## 🚀 Struktur Router
+1. "/"                     : Dashboard
+2. "/menu"                 : Daftar Menu
+3. "/menu/add              : Tambah Menu
+4. "/menu/edit/:id"        : Edit Menu
+5. "/transaksi"            : Daftar Transaksi
+6. "/transaksi/add         : Tambah Transaksi
+7. "/Transaksi/edit/:id"   : Edit Transaksi
+8. "/laporan"              : Daftar Laporan
 
 ---
