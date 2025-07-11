@@ -16,7 +16,7 @@ export const useMenuStore = defineStore('menu', {
     actions: {
         async getMenus() {
             try {
-                const res = await axios.get('https://brazen-relic-yew.glitch.me/menus')
+                const res = await axios.get('http://localhost:3000/menus')
                 this.menus = res.data
             } catch (error) {
                 console.error("Gagal Fetch Data", error)
@@ -37,7 +37,7 @@ export const useMenuStore = defineStore('menu', {
                     ...menu
                 }
 
-                const res = await axios.post('https://brazen-relic-yew.glitch.me/menus/', newMenu)
+                const res = await axios.post('http://localhost:3000/menus/', newMenu)
                 this.menus.push(res.data)
 
             } catch (error) {
@@ -46,7 +46,7 @@ export const useMenuStore = defineStore('menu', {
         },
         async updateMenu(id, updatedMenu) {
             try {
-                await axios.put(`https://brazen-relic-yew.glitch.me/menus/${id}`, updatedMenu)
+                await axios.put(`http://localhost:3000/menus/${id}`, updatedMenu)
                 const index = this.menus.findIndex(item => item.id === id)
                 if (index !== -1) {
                     this.menus[index] = { id, ...updatedMenu }  
@@ -57,7 +57,7 @@ export const useMenuStore = defineStore('menu', {
         },
         async deleteMenu(id){
             try {
-                await axios.delete(`https://brazen-relic-yew.glitch.me/menus/${id}`)
+                await axios.delete(`http://localhost:3000/menus/${id}`)
                 console.log("berhasil delete")
                 this.getMenus()
             } catch (error) {
